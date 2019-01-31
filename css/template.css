@@ -1,5 +1,6 @@
 .vertical-menu {
     width: 200px; /* Set a width if you like */
+    margin: 0;
   }
   
   .vertical-menu a {
