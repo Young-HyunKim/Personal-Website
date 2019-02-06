@@ -25,10 +25,12 @@ $(document).ready(function () {
         
         if ( 0 <= ColorCode && ColorCode <= 2 ) {
             console.log(1);
-            $('#ScreenColor').css('background','#1a237e');
+            //$('#ScreenColor').css('background','#1a237e');
+            $('#ScreenColor').css('background','linear-gradient(to left, #1a237e, #283593, #303f9f, #3949ab, #3f51b5)');
         } else if( 3 <= ColorCode && ColorCode <= 5 ) {
             console.log(2);
-            $('#ScreenColor').css('background','#283593');
+            //$('#ScreenColor').css('background','#283593');
+            $('#ScreenColor').css('background','linear-gradient(to left, #0d47a1, #1565c0, #1976d2, #1e88e5, #2196f3)');
         } else if( 6 <= ColorCode && ColorCode <= 8 ) {
             console.log(3);
             $('#ScreenColor').css('background','#303f9f');
@@ -46,7 +48,8 @@ $(document).ready(function () {
             $('#ScreenColor').css('background','#e91e63');
         } else if( 21 <= ColorCode && ColorCode <= 23  ){
             console.log(8);
-            $('#ScreenColor').css('background','#6a1b9a');
+            //$('#ScreenColor').css('background','#9c27b0');
+            $('#ScreenColor').css('background','linear-gradient(to left, #4a148c, #6a1b9a, #7b1fa2, #8e24aa,#9c27b0)');
         }
 
     }
