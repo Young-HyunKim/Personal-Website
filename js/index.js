@@ -3,7 +3,7 @@ $(document).ready(function () {
     var ColorCode = "";
     var NowTime = "";
 
-    
+    SetTime();
     ColorCode = Today.getHours();
 
     setInterval(SetTime,1000);
