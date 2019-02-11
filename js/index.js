@@ -41,7 +41,7 @@ $(document).ready(function () {
             $('#ScreenColor').css('background','linear-gradient(to left, #01579b, #0277bd, #0288d1, #039be5, #03a9f4)');
         } else if( 15 <= ColorCode && ColorCode <= 17 ){
             console.log("15시 ~ 17시");
-            $('#ScreenColor').css('background','linear-gradient(to left, #ec407a, #f06292, #f48fb1, #f8bbd0, #fce4ec)');
+            $('#ScreenColor').css('background','linear-gradient(to left, #ffc107, #ffb300, #ffa000, #ff8f00, #ff6f00)');
         } else if( 18 <= ColorCode && ColorCode <= 20 ){
             console.log("18시 ~ 20시");
             $('#ScreenColor').css('background','linear-gradient(to left, #880e4f, #ad1457, #c2185b, #d81b60, #e91e63)');
