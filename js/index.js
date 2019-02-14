@@ -45,7 +45,6 @@ $(document).ready(function () {
         } else if( 18 <= ColorCode && ColorCode <= 20 ){
             console.log("18시 ~ 20시");
             $('#ScreenColor').css('background','linear-gradient(to left, #880e4f, #ad1457, #c2185b, #d81b60, #e91e63)');
-
         } else if( 21 <= ColorCode && ColorCode <= 23  ){
             console.log("21시 ~ 23시");
             $('#ScreenColor').css('background','linear-gradient(to left, #4a148c, #6a1b9a, #7b1fa2, #8e24aa,#9c27b0)');
