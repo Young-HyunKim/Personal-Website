@@ -7,6 +7,7 @@ $(document).ready(function () {
     ColorCode = Today.getHours();
 
     setInterval(SetTime,1000);
+    setInterval(SetBackgroundColor,1000);
 
     function SetTime(){
         var NT = new Date();
