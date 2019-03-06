@@ -1,24 +1,24 @@
 .vertical-menu {
     width: 200px; /* Set a width if you like */
     margin: 0;
-  }
+}
   
-  .vertical-menu a {
+.vertical-menu a {
     background-color: #F6F6F6; /* Grey background color */
     color: #212121; /* Black text color */
     display: block; /* Make the links appear below each other */
     padding: 12px; /* Add some padding */
     text-decoration: none; /* Remove underline from links */
-  }
+}
   
-  .vertical-menu a:hover {
+.vertical-menu a:hover {
     background-color: #CECECE; /* Dark grey background on mouse-over */
-  }
+}
   
-  .vertical-menu a.active {
+.vertical-menu a.active {
     background-color: #F6F6F6; /* Add a green color to the "active/current" link */
     color: black;
-  }
+}
 
 .z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
     -webkit-box-shadow: 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0px rgba(0,0,0,0); 
@@ -35,7 +35,6 @@
   padding-top: 0px;
   padding-right: 600px;
 }
-
 
 .cell_content{
   text-align: center;
